@@ -126,5 +126,4 @@ usr_name = "Hi there! What's your name? "
 usr_color = "And your favorite color is? "
 print("{}, I like the {} color too".format(usr_name, usr_color))
 
-h = 5+6
-print(h)
+5+6
