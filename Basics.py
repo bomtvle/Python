@@ -125,3 +125,5 @@ print("Square of entered number is: {0:.2f}".format(sqr_num))
 usr_name = "Hi there! What's your name? "
 usr_color = "And your favorite color is? "
 print("{}, I like the {} color too".format(usr_name, usr_color))
+
+a=4+5
