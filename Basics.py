@@ -127,3 +127,5 @@ usr_color = "And your favorite color is? "
 print("{}, I like the {} color too".format(usr_name, usr_color))
 
 print("yes")
+
+y=5+6
