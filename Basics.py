@@ -127,5 +127,8 @@ usr_color = "And your favorite color is? "
 print("{}, I like the {} color too".format(usr_name, usr_color))
 
 import subprocess
-print("No shell expansion when shell=False", flush=True)
-subprocess.call(['echo', 'Hello $USER'])
+subprocess.call('date')
+print("\nToday is ", end="", flush=True)
+
+num = 5
+num > 2
