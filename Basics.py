@@ -133,3 +133,22 @@ print("\nToday is ", end="", flush=True)
 fav_fiction = 'Harry Potter'
 fav_detective = 'Sherlock Holmes'
 fav_fiction == fav_detective
+
+if -1:
+    print("-1 evaluates to True in condition checking")
+
+def num_chk(n):
+    if n == 10 or n == 21 or n == 33:
+        print("Number passes condition")
+    else:
+        print("Number fails condition")
+num_chk(10)
+num_chk(12)
+
+def num_chk(n):
+    if n in (10, 21, 33):
+        print("Number passes condition")
+    else:
+        print("Number fails condition")
+num_chk(12)
+num_chk(10)
