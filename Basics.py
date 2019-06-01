@@ -130,5 +130,6 @@ import subprocess
 subprocess.call('date')
 print("\nToday is ", end="", flush=True)
 
-num = 5
-num > 2
+fav_fiction = 'Harry Potter'
+fav_detective = 'Sherlock Holmes'
+fav_fiction == fav_detective
