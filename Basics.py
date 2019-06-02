@@ -177,5 +177,15 @@ print("{} is an {} number".format(num, num_type))
 
 num1 = 35
 num2 = 42
-comparison = "greater" if (num1-num2) > 0 else "smaller"
+comparison = "greater" if (num1 - num2) > 0 else "smaller"
 print("{} is {} than {}".format(num1, comparison, num2))
+
+number = 9
+for i in range(2, 4):
+    mul_table = number * i
+    print("{} * {} = {}".format(number, i, mul_table))
+
+usr_string = 'not a number'
+while not usr_string.isnumeric():
+    usr_string = input("Enter a positive integer: ")
+
