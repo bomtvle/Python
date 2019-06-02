@@ -170,3 +170,12 @@ elif num > 0:
     print("{} is a positive number".format(num))
 else:
     print("{} is neither postive nor a negative number".format(num))
+
+num = 42
+num_type = 'even' if num % 2 == 0 else 'odd'
+print("{} is an {} number".format(num, num_type))
+
+num1 = 35
+num2 = 42
+comparison = "greater" if (num1-num2) > 0 else "smaller"
+print("{} is {} than {}".format(num1, comparison, num2))
