@@ -201,3 +201,15 @@ for num in range(10):
     curr_num = curr_num + prev_num
     prev_num = temp
 print("")
+
+import random
+while True:
+    random_int = random.randrange(500)
+    if random_int % 4 == 0 and random_int % 6 == 0:
+        break
+print("Random number divisible by 4 and 6: {}".format(random_int))
+
+while True:
+    usr_string = input("Enter a positive integer: ")
+    if usr_string.isnumeric():
+        break
