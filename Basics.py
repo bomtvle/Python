@@ -221,4 +221,11 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 vowels[0]
 
 even_numbers = list(range(2, 11, 2))
-even_numbers
+even_numbers[-1]
+even_numbers[-2]
+
+student = ['learnbyexample', 2016, 'Linux, Vim, Python']
+print(student)
+
+list_2D = [[1, 3, 2, 10], [1.2, -0.2, 0, 2]]
+list_2D[0]
