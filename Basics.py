@@ -215,4 +215,10 @@ while True:
         break
 
 string = '123456'
-print(string.isnumeric()) 
+print(string.isnumeric())
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+vowels[0]
+
+even_numbers = list(range(2, 11, 2))
+even_numbers
