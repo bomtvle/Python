@@ -232,3 +232,21 @@ list_2D[0]
 
 prime = [2, 3, 5, 7, 11]
 prime[3:1:-1]
+
+numbers = [2, 12, 3, 25, 624, 21, 5, 9, 12]
+odd_numbers = []
+even_numbers = []
+for num in numbers:
+    odd_numbers.append(num) if (num % 2) else even_numbers.append(num)
+print("numbers: {}".format(numbers))
+print("odd_numbers: {}".format(odd_numbers))
+print("even_numbers: {}".format(even_numbers))
+
+north_dishes = ['Aloo tikki', 'Baati', 'Khichdi', 'Makki roti', 'Poha']
+print("My favorite North Indian dishes:")
+for idx, item in enumerate(north_dishes):
+    print("{}. {}".format(idx + 1, item))
+
+north_dishes = ['Aloo tikki', 'Baati', 'Khichdi', 'Makki roti', 'Poha']
+for idx, item in enumerate(north_dishes, start=1):
+    print(idx, item, sep='. ')
