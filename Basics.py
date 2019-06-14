@@ -250,3 +250,8 @@ for idx, item in enumerate(north_dishes):
 north_dishes = ['Aloo tikki', 'Baati', 'Khichdi', 'Makki roti', 'Poha']
 for idx, item in enumerate(north_dishes, start=1):
     print(idx, item, sep='. ')
+
+odd = [1, 3, 5]
+even = [2, 4, 6]
+for i, j in zip(odd, even):
+    print(i + j)
