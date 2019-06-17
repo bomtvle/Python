@@ -280,3 +280,17 @@ if fl_square_numbers == lc_square_numbers:
 else:
     print("\nfl_square_numbers and lc_square_numbers are NOT equivalent")
     
+numbers = [2, 12, 3, 25, 624, 21, 5, 9, 12]
+odd_numbers = []
+even_numbers = []
+[odd_numbers.append(num) if(num % 2) else even_numbers.append(num) for num in numbers]
+
+numbers = [2, 12, 3, 25, 624, 21, 5, 9, 12]
+odd_numbers = [num for num in numbers if num % 2]
+even_numbers = [num for num in numbers if not num % 2]
+
+p = [1, 3, 5]
+q = [3, 214, 53]
+[i+j for i,j in zip(p, q)]
+[i*j for i,j in zip(p, q)]
+sum(i*j for i,j in zip(p, q))
