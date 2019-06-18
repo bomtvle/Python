@@ -294,3 +294,4 @@ q = [3, 214, 53]
 [i+j for i,j in zip(p, q)]
 [i*j for i,j in zip(p, q)]
 sum(i*j for i,j in zip(p, q))
+
