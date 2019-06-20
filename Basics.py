@@ -295,3 +295,10 @@ q = [3, 214, 53]
 [i*j for i,j in zip(p, q)]
 sum(i*j for i,j in zip(p, q))
 
+book = "Alchemist"
+book[0]
+
+import string
+string.ascii_uppercase[:10]
+list(string.digits)
+
