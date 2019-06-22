@@ -302,3 +302,18 @@ import string
 string.ascii_uppercase[:10]
 list(string.digits)
 
+nums = [3, 2, 5, 7, 1, 6.3]
+len(nums)
+
+book
+'Alchemist'
+set(book)
+
+nums = {1, 2, 3, 5, 6.3, 7}
+nums.pop()
+nums
+
+language = ['Python', 'Java', 'C++', 'Ruby', 'C']
+print('When index is not passed:')
+print('Return Value: ', language.pop())
+language[2]
