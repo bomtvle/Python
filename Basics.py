@@ -314,6 +314,38 @@ nums.pop()
 nums
 
 language = ['Python', 'Java', 'C++', 'Ruby', 'C']
+language.pop(-3)
+language
 print('When index is not passed:')
-print('Return Value: ', language.pop())
-language[2]
+print('Return Value: ', language.pop(-3))
+
+nums = {1, 2, 3, 5, 6.3, 7}
+for n in nums:
+    print(n)
+
+
+fav_books = {}
+fav_books['fantasy'] = 'Harry Potter'
+fav_books['detective'] = 'Sherlock Holmes'
+fav_books['thriller'] = 'The Da Vinci Code'
+fav_books
+
+for book in fav_books.values():
+    print(book)
+
+a = {"a":2,"b": 5, "c":3}
+a.keys()
+for thing in a.keys():
+    print(thing)
+
+marks = {'Rahul' : 86, 'Ravi' : 92, 'Rohit' : 75}
+marks.values()
+marks.items()
+for a, b in marks.items():
+    print(a, b, sep=": ")
+
+fav_books = {'thriller': 'The Da Vinci Code', 'fantasy': 'Harry Potter', 'detective': 'Sherlock Holmes'}
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+pp.pprint(fav_books)
+
