@@ -346,6 +346,6 @@ for a, b in marks.items():
 
 fav_books = {'thriller': 'The Da Vinci Code', 'fantasy': 'Harry Potter', 'detective': 'Sherlock Holmes'}
 import pprint
-pp = pprint.PrettyPrinter(indent=4)
+pp = pprint.PrettyPrinter(indent=1)
 pp.pprint(fav_books)
 
