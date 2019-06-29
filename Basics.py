@@ -348,4 +348,3 @@ fav_books = {'thriller': 'The Da Vinci Code', 'fantasy': 'Harry Potter', 'detect
 import pprint
 pp = pprint.PrettyPrinter(indent=1)
 pp.pprint(fav_books)
-
