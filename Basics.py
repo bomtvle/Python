@@ -361,3 +361,7 @@ rand_zone = random.choice(tuple(dishes.keys()))
 rand_dish = random.choice(dishes[rand_zone])
 print("Try the '{}' speciality '{}' today".format(rand_zone, rand_dish))
 
+marks = {'Rahul' : 86, 'Ravi' : 92, 'Rohit' : 75, 'Rajan': 79}
+for name, mark in marks.items():
+    print(f'{name:5s}: {mark}')
+
