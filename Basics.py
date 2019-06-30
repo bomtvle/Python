@@ -355,7 +355,9 @@ south = ['appam', 'bisibele bath', 'dosa', 'koottu', 'sevai']
 west = ['dhokla', 'khakhra', 'modak', 'shiro', 'vada pav']
 east = ['hando guri', 'litti', 'momo', 'rosgulla', 'shondesh']
 dishes = {'North': north, 'South': south, 'West': west, 'East': east}
+random.choice(dishes['South'])
 
 rand_zone = random.choice(tuple(dishes.keys()))
 rand_dish = random.choice(dishes[rand_zone])
 print("Try the '{}' speciality '{}' today".format(rand_zone, rand_dish))
+
