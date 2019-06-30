@@ -348,3 +348,14 @@ fav_books = {'thriller': 'The Da Vinci Code', 'fantasy': 'Harry Potter', 'detect
 import pprint
 pp = pprint.PrettyPrinter(indent=1)
 pp.pprint(fav_books)
+
+import random
+north = ['aloo tikki', 'baati', 'khichdi', 'makki roti', 'poha']
+south = ['appam', 'bisibele bath', 'dosa', 'koottu', 'sevai']
+west = ['dhokla', 'khakhra', 'modak', 'shiro', 'vada pav']
+east = ['hando guri', 'litti', 'momo', 'rosgulla', 'shondesh']
+dishes = {'North': north, 'South': south, 'West': west, 'East': east}
+
+rand_zone = random.choice(tuple(dishes.keys()))
+rand_dish = random.choice(dishes[rand_zone])
+print("Try the '{}' speciality '{}' today".format(rand_zone, rand_dish))
