@@ -372,3 +372,8 @@ import string
 quote = 'SIMPLICITY IS THE ULTIMATE SOPHISTICATION'
 tr_table = str.maketrans(string.ascii_uppercase, string.ascii_lowercase)
 quote.translate(tr_table)
+
+greeting = ' Have a nice day :) '
+greeting.strip(": )")
+
+' Hello World '.center(40, '*')
