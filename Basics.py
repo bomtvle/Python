@@ -365,3 +365,10 @@ marks = {'Rahul' : 86, 'Ravi' : 92, 'Rohit' : 75, 'Rajan': 79}
 for nam, mark in marks.items():
     print(f'{nam:5s}: {mark}')
 
+greeting = '===== Have a great day!! ====='
+greeting.translate(str.maketrans("!", "y", "H"))
+
+import string
+quote = 'SIMPLICITY IS THE ULTIMATE SOPHISTICATION'
+tr_table = str.maketrans(string.ascii_uppercase, string.ascii_lowercase)
+quote.translate(tr_table)
