@@ -384,3 +384,13 @@ sentence = 'This is a sample string'
 sentence.count('s')
 
 "oranges:5".split('g')
+
+import re
+string = "This is a sample string"
+bool(re.search('this', string))
+
+string = "This is a sample string"
+re.findall('is', string)
+
+string = "This is a sample string"
+re.findall('\w+', string)
