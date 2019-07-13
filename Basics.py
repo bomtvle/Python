@@ -377,3 +377,10 @@ greeting = ' Have a nice day :) '
 greeting.strip(": )")
 
 ' Hello World '.center(40, '*')
+
+'abc'.isnumeric()
+
+sentence = 'This is a sample string'
+sentence.count('s')
+
+"oranges:5".split('g')
