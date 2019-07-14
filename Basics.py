@@ -394,3 +394,7 @@ re.findall('is', string)
 
 string = "This is a sample string"
 re.findall('\w+', string)
+
+import re
+quote = "So many books, so little time"
+re.search(r'([a-z]{2,}).*\1', quote, re.I)
