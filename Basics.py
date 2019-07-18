@@ -36,12 +36,6 @@ my_num = 3
 print(num_square(2))
 print(num_square(my_num))
 
-def greeting(style_char='-'):
-    print(style_char * 29)
-    print(" Hello World ")
-    print(style_char * 29)
-
-greeting()
 
 mystr = "Hello World\nHello Python"
 print (mystr)
@@ -100,18 +94,6 @@ def square_of_num(num):
 square_of_num(5)
 print("5 * 5 = {}".format(square_of_num))
 
-sqr_num = 4
-def square_of_num(num):
-    sqr_num = num * num
-    print("5 * 5 = {}".format(sqr_num))
-square_of_num(5)
-print("Whoops! sqr_num is still {}!".format(sqr_num))
-
-def square_of_num(num):
-    sqr_num = num * num
-    print("5 * 5 = {}".format(sqr_num))
-square_of_num(3)
-
 usr_ip = "12"
 usr_num = int(usr_ip)
 sqr_num = usr_num * usr_num
@@ -144,14 +126,6 @@ def num_chk(n):
         print("Number fails condition")
 num_chk(10)
 num_chk(12)
-
-def num_chk(n):
-    if n in (10, 21, 33):
-        print("Number passes condition")
-    else:
-        print("Number fails condition")
-num_chk(12)
-num_chk(10)
 
 num = 45
 if num > 25:
