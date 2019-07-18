@@ -402,3 +402,8 @@ re.search(r'([a-z]{2,}).*\1', quote, re.I)
 import re
 greeting = '***** Have a great day *****'
 re.sub('*', '=', greeting)
+
+import re
+xx = "guru99,education is fun"
+r1 = re.findall(r"^\w+",xx)
+print(r1)
